@@ -34,11 +34,14 @@ body {
 
 #team-container div {
     width: calc((100% / 3) - 30px);
-    margin: 0 5px 1rem;
-    border: solid 0.5px gray;
+    margin: 0 15px 1rem;
     border-radius: 25px;
-    background-image: linear-gradient(rgb(119, 2, 154), rgb(52, 0, 148));
-    
+
+    border: solid 0.5px rgb(30, 66, 116);
+    background-color: rgba(19, 35, 58, 0.598);
+
+    /*border: solid 0.5px gray;
+    background-color: linear-gradient(rgb(119, 2, 154), rgb(52, 0, 148));*/
 }
 
 #team-container img {

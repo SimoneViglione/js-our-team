@@ -29,21 +29,31 @@ body {
 #team-container  {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 #team-container div {
-    width: calc(100% / 3);
-    margin: 0 0 1rem;
+    width: calc((100% / 3) - 30px);
+    margin: 0 5px 1rem;
+    border: solid 0.5px gray;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(119, 2, 154), rgb(52, 0, 148));
+    
 }
 
 #team-container img {
-    width: 70%;
-    border-radius: 25px;
+    width: 80%;
+    border-radius: 50%;
     margin: 1rem 0;
+    border: solid 10px white;
 }
 
 img:hover {
     scale: 1.1;
+}
+
+h5 {
+    padding-bottom: 10px;
 }
 
 /********************************************/
